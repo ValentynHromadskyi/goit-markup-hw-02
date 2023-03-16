@@ -1,0 +1,170 @@
+/** @format */
+
+:root {
+  --primery-text-color: #434455;
+  --hover-color: #404bbf;
+  --accent-color: #4d5ae5;
+  --hero-text: #ffffff;
+  --title: #2e2f42;
+  --foother-text: #f4f4fd;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: var(--primery-text-color);
+  background: var(--hero-text);
+}
+
+/* ----------HEADER----------------------- */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2e2f42;
+  word-spacing: -5px;
+}
+
+.logo .logo-first {
+  color: var(--accent-color);
+}
+
+.navigation,
+.adress {
+  list-style-type: none;
+}
+
+.navigation-link {
+  color: var(--title);
+  text-decoration: none;
+}
+
+.contacts {
+  color: var(--primery-text-color);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.contacts:hover,
+.contacts:focus,
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--hover-color);
+}
+
+/* ----------------HERO------------------------ */
+.hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: var(--hero-text);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--hover-color);
+}
+
+.hero {
+  background-color: var(--title);
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--hero-text);
+}
+
+/* ------------------Company values-------------- */
+.company-values {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.company-values-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--title);
+}
+
+/* --------------products and team---------------------- */
+
+.products-list,
+.team-list {
+  list-style-type: none;
+}
+
+.team .team-item {
+  background-color: var(--hero-text);
+}
+
+.team {
+  background-color: var(--foother-text);
+}
+
+.products-list,
+.team-list {
+  list-style-type: none;
+}
+
+.products-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+/* -------foother------------ */
+.foother {
+  color: var(--foother-text);
+  background-color: var(--title);
+}
+.logo-footer {
+  color: var(--foother-text);
+}
+
+/* --------------   P O R T F O L I O -------------- */
+.filters-list,
+.portfolio-list {
+  list-style-type: none;
+}
+
+.filters-btn {
+  background: var(--foother-text);
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  background: var(--hover-color);
+  color: var(--hero-text);
+}
+.filters-list {
+  color: var(--accent-color);
+}
+
+.portfolio-link {
+  text-decoration: none;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--title);
+}
+
+.portfolio-list {
+  font-size: 16px;
+  line-height: 1.5;
+}
